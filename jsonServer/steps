@@ -1,0 +1,4 @@
+steps
+1. start the eureka server running on port 8761 using "mvn spring-boot:run" in prj loc
+2. start the zuul server running on port 8989 using "mvn spring-boot:run" in prj loc
+3. start zoopkeeper using "zookeeper-server-start.bat ../../config/zookeeper.properties"

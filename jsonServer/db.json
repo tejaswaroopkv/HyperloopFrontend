@@ -1,0 +1,596 @@
+{
+  "adminData": [
+    {
+      "admin_name": "tejaswaroopkv",
+      "emailId": "tejaswaroop.kuppa09@gmail.com",
+      "password": "flywayAdmin09"
+    }
+  ],
+  "airportData": [
+    {
+      "code": "DEL",
+      "city": "Delhi",
+      "airportId": "1",
+      "airportName": "Indira Gandhi International Airport",
+      "state": "Delhi",
+      "country": "India"
+    },
+    {
+      "code": "MUM",
+      "city": "Mumbai",
+      "airportId": "2",
+      "airportName": "Chhatrapati Shivaji International Airport",
+      "state": "Maharashtra",
+      "country": "India"
+    },
+    {
+      "code": "BLR",
+      "city": "Bangalore",
+      "airportId": "3",
+      "airportName": "HAL Bangalore International Airport",
+      "state": "Karnataka",
+      "country": "India"
+    },
+    {
+      "code": "HYD",
+      "city": "Hyderabad",
+      "airportId": "4",
+      "airportName": "Ragiv Gandhi International Airport",
+      "state": "Telangana",
+      "country": "India"
+    },
+    {
+      "code": "KOL",
+      "city": "Kolkata",
+      "airportId": "5",
+      "airportName": "Netaji Subhash Chandra Bose International Airport",
+      "state": "West Bengal",
+      "country": "India"
+    },
+    {
+      "code": "CHN",
+      "city": "Chennai",
+      "airportId": "6",
+      "airportName": "Chennai International Airport",
+      "state": "Tamil Nadu",
+      "country": "India"
+    },
+    {
+      "code": "STV",
+      "city": "Surat",
+      "airportId": "7",
+      "airportName": "Surat Airport",
+      "state": "Gujarat",
+      "country": "India"
+    },
+    {
+      "code": "RAJ",
+      "city": "Rajkot",
+      "airportId": "8",
+      "airportName": "Rajkot Airport",
+      "state": "Gujarat",
+      "country": "India"
+    },
+    {
+      "code": "ROC",
+      "city": "Rochester",
+      "airportId": "9",
+      "airportName": "Greater Rochester International Airport",
+      "state": "New York",
+      "country": "United States"
+    }
+  ],
+  "flightData": [
+    {
+      "id": "1",
+      "airlineid": "101",
+      "airlinename": "Indigo",
+      "sourcePlace": "Hyderabad",
+      "srcid": "4",
+      "destinationPlace": "Kolkata",
+      "destid": "5",
+      "depatureDate": "04-08-2021",
+      "returnDate": "05-08-2021",
+      "createdDate": "23-07-2021",
+      "price": "50$",
+      "flightCode": "IND1000",
+      "logoUrl": "https://www.farehawker.com/img/image/IndiGo-Airlines.png",
+      "isAvailable": true,
+      "totalSeats": 80
+    },
+    {
+      "id": "2",
+      "airlineid": "102",
+      "airlinename": "Spice Jet",
+      "sourcePlace": "Mumbai",
+      "srcid": "2",
+      "destinationPlace": "Delhi",
+      "destid": "1",
+      "depatureDate": "26-07-2021",
+      "returnDate": "30-07-2021",
+      "createdDate": "23-07-2021",
+      "price": "90$",
+      "flightCode": "SJ1001",
+      "logoUrl": "https://www.farehawker.com/img/image/SpiceJet_logo.png",
+      "isAvailable": true,
+      "totalSeats": 100
+    },
+    {
+      "id": "3",
+      "airlineid": "103",
+      "airlinename": "Jet Airways",
+      "sourcePlace": "Hyderabad",
+      "srcid": "4",
+      "destinationPlace": "Rochester",
+      "destid": "9",
+      "depatureDate": "24-07-2021",
+      "returnDate": "30-07-2021",
+      "createdDate": "23-07-2021",
+      "price": "100$",
+      "flightCode": "JA1002",
+      "logoUrl": "https://www.farehawker.com/img/image/Jet-Airways-(India).png",
+      "isAvailable": true,
+      "totalSeats": 80
+    },
+    {
+      "id": "4",
+      "airlineid": "103",
+      "airlinename": "Jet Airways",
+      "sourcePlace": "Bangalore",
+      "srcid": "3",
+      "destinationPlace": "Rochester",
+      "destid": "9",
+      "depatureDate": "23-07-2021",
+      "returnDate": "26-07-2021",
+      "createdDate": "23-07-2021",
+      "price": "100$",
+      "flightCode": "JA1003",
+      "logoUrl": "https://www.farehawker.com/img/image/Jet-Airways-(India).png",
+      "isAvailable": true,
+      "totalSeats": 80
+    },
+    {
+      "id": "5",
+      "airlineid": "102",
+      "airlinename": "Spice Jet",
+      "sourcePlace": "Mumbai",
+      "srcid": "2",
+      "destinationPlace": "Kolkata",
+      "destid": "5",
+      "depatureDate": "23-07-2021",
+      "returnDate": "26-07-2021",
+      "createdDate": "23-07-2021",
+      "price": "100$",
+      "flightCode": "SJ1004",
+      "logoUrl": "https://www.farehawker.com/img/image/SpiceJet_logo.png",
+      "isAvailable": true,
+      "totalSeats": 150
+    },
+    {
+      "id": "6",
+      "airlineid": "101",
+      "airlinename": "Indigo",
+      "sourcePlace": "Kolkata",
+      "srcid": "5",
+      "destinationPlace": "Hyderabad",
+      "destid": "4",
+      "depatureDate": "28-07-2021",
+      "returnDate": "30-07-2021",
+      "createdDate": "23-07-2021",
+      "price": "50$",
+      "flightCode": "IND1005",
+      "logoUrl": "https://www.farehawker.com/img/image/IndiGo-Airlines.png",
+      "isAvailable": true,
+      "totalSeats": 100
+    },
+    {
+      "id": "7",
+      "airlineid": "102",
+      "airlinename": "Spice Jet",
+      "sourcePlace": "Delhi",
+      "srcid": "1",
+      "destinationPlace": "Mumbai",
+      "destid": "2",
+      "depatureDate": "28-07-2021",
+      "returnDate": "30-07-2021",
+      "createdDate": "23-07-2021",
+      "price": "90$",
+      "flightCode": "SJ1001",
+      "logoUrl": "https://www.farehawker.com/img/image/SpiceJet_logo.png",
+      "isAvailable": true
+    },
+    {
+      "id": "8",
+      "airlineid": "101",
+      "airlinename": "Indigo",
+      "sourcePlace": "Kolkata",
+      "srcid": "5",
+      "destinationPlace": "Mumbai",
+      "destid": "2",
+      "depatureDate": "25-07-2021",
+      "returnDate": "28-07-2021",
+      "createdDate": "23-07-2021",
+      "price": "100$",
+      "flightCode": "IND1005",
+      "logoUrl": "https://www.farehawker.com/img/image/IndiGo-Airlines.png",
+      "isAvailable": true,
+      "totalSeats": 150
+    },
+    {
+      "id": "9",
+      "airlineid": "102",
+      "airlinename": "Spice Jet",
+      "sourcePlace": "Hyderabad",
+      "srcid": "4",
+      "destinationPlace": "Kolkata",
+      "destid": "5",
+      "depatureDate": "25-07-2021",
+      "returnDate": "28-07-2021",
+      "createdDate": "23-07-2021",
+      "price": "40$",
+      "flightCode": "SJ1004",
+      "logoUrl": "https://www.farehawker.com/img/image/SpiceJet_logo.png",
+      "isAvailable": true,
+      "totalSeats": 100
+    },
+    {
+      "logoUrl": "https://www.farehawker.com/img/image/IndiGo-Airlines.png",
+      "id": "15",
+      "airlineid": "101",
+      "airlinename": "Indigo",
+      "flightcode": "IND1005",
+      "srcid": "2",
+      "destid": "3",
+      "sourcePlace": "Mumbai",
+      "destinationPlace": "Bangalore",
+      "depatureDate": "29-07-2021",
+      "returnDate": "31-07-2021",
+      "price": "55$",
+      "createdDate": "26-07-2021",
+      "isAvailable": true,
+      "totalSeats": 150
+    }
+  ],
+  "airlineInfo": [
+    {
+      "airlineid": "101",
+      "airlinename": "Indigo",
+      "fightcodes": [
+        "IND1000",
+        "IND1005"
+      ],
+      "logoUrl": "https://www.farehawker.com/img/image/IndiGo-Airlines.png"
+    },
+    {
+      "airlineid": "102",
+      "airlinename": "Spice Jet",
+      "fightcodes": [
+        "SJ1004",
+        "SJ1001"
+      ],
+      "logoUrl": "https://www.farehawker.com/img/image/SpiceJet_logo.png"
+    },
+    {
+      "airlineid": "103",
+      "airlinename": "Jet Airways",
+      "fightcodes": [
+        "JA1002",
+        "JA1003"
+      ],
+      "logoUrl": "https://www.farehawker.com/img/image/SpiceJet_logo.png"
+    }
+  ],
+  "couponData": [
+    {
+      "id": 1,
+      "code": "FIRSTFLY",
+      "price": "10$"
+    },
+    {
+      "id": 2,
+      "code": "JUSFLY",
+      "price": "5$"
+    },
+    {
+      "code": "SAVE25",
+      "price": "25$",
+      "id": 3
+    }
+  ],
+  "bookedFlight": [
+    {
+      "id": "1390",
+      "passangerInfo": {
+        "passangerid": "1714",
+        "name": "Tejaswaroop Kuppa",
+        "email": "tejaswaroop.kuppa09@gmail.com",
+        "contact": "08639600378",
+        "depaturePNR": "PNRDFLY901011263",
+        "returnPNR": "",
+        "CoPassangers": [
+          {
+            "passangerid": "2408",
+            "name": "cbv",
+            "email": "cbv@gmail.com",
+            "contact": "08639600379",
+            "depaturePNR": "PNRDFLY9010112631012263",
+            "returnPNR": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": "1904",
+      "passangerInfo": {
+        "passangerid": "1875",
+        "name": "Tejaswaroop Kuppa",
+        "email": "tejaswaroop.kuppa09@gmail.com",
+        "contact": "08639600378",
+        "depaturePNR": "PNRDFLY901021533",
+        "returnPNR": "",
+        "CoPassangers": []
+      }
+    },
+    {
+      "id": "1740",
+      "passangerInfo": {
+        "passangerid": "1506",
+        "name": "sample2",
+        "email": "sample2@gmail.com",
+        "contact": "08639600379",
+        "depaturePNR": "PNRDFLY901021458",
+        "returnPNR": "PNRRFLY901011458",
+        "CoPassangers": [
+          {
+            "passangerid": "2582",
+            "name": "sample1",
+            "email": "sampel1@gmail.com",
+            "contact": "08639600378",
+            "depaturePNR": "PNRDFLY9010214581022458",
+            "returnPNR": "PNRRFLY9010114581012458"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1636",
+      "passangerInfo": {
+        "passangerid": "1332",
+        "name": "Tejaswaroop ",
+        "email": "tejaswaroop.kuppa09@gmail.com",
+        "contact": "08639600378",
+        "depaturePNR": "PNRDFLY90101132",
+        "returnPNR": "",
+        "CoPassangers": []
+      }
+    },
+    {
+      "id": "1411",
+      "passangerInfo": {
+        "passangerid": "1268",
+        "name": "Tejaswaroop Kuppa",
+        "email": "tejaswaroop.kuppa09@gmail.com",
+        "contact": "08639600378",
+        "depaturePNR": "PNRDFLY90102123",
+        "returnPNR": "PNRRFLY90101123",
+        "CoPassangers": []
+      }
+    },
+    {
+      "id": "1437",
+      "passangerInfo": {
+        "passangerid": "1564",
+        "name": "dfgv",
+        "email": "dfg@gmail.com",
+        "contact": "08639600378",
+        "depaturePNR": "PNRDFLY901021744",
+        "returnPNR": "",
+        "CoPassangers": []
+      }
+    },
+    {
+      "id": "1323",
+      "passangerInfo": {
+        "passangerid": "1806",
+        "name": "cfb",
+        "email": "dfg@gfg.com",
+        "contact": "08639600378",
+        "depaturePNR": "PNRDFLY90102170",
+        "returnPNR": "",
+        "CoPassangers": []
+      }
+    },
+    {
+      "id": "1871",
+      "passangerInfo": {
+        "passangerid": "1159",
+        "name": "Tejaswaroop Kuppa",
+        "email": "tejaswaroop.kuppa09@gmail.com",
+        "contact": "08639600378",
+        "depaturePNR": "PNRDFLY901021340",
+        "returnPNR": "",
+        "CoPassangers": []
+      }
+    },
+    {
+      "id": "1883",
+      "passangerInfo": {
+        "passangerid": "1591",
+        "name": "Tejaswaroop Kuppa",
+        "email": "tejaswaroop.kuppa09@gmail.com",
+        "contact": "08639600378",
+        "depaturePNR": "PNRDFLY901011696",
+        "returnPNR": "",
+        "CoPassangers": []
+      }
+    },
+    {
+      "id": "1729",
+      "passangerInfo": {
+        "passangerid": "1501",
+        "name": "murthy",
+        "email": "murthy909@gmail.com",
+        "contact": "08639600389",
+        "depaturePNR": "PNRDFLY90101142",
+        "returnPNR": "PNRRFLY90101142",
+        "CoPassangers": [
+          {
+            "passangerid": "2414",
+            "name": "Tejaswaroop Kuppa",
+            "email": "tejaswaroop.kuppa09@gmail.com",
+            "contact": "08639600388",
+            "depaturePNR": "PNRDFLY90101142101242",
+            "returnPNR": "PNRRFLY90101142101242"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1584",
+      "passangerInfo": {
+        "passangerid": "1946",
+        "name": "Tejaswaroop Kuppa",
+        "email": "tejaswaroop.kuppa09@gmail.com",
+        "contact": "08639600388",
+        "depaturePNR": "PNRDFLY901011797",
+        "returnPNR": "PNRRFLY901011797",
+        "CoPassangers": []
+      }
+    },
+    {
+      "id": "1451",
+      "passangerInfo": {
+        "passangerid": "1418",
+        "name": "test",
+        "email": "test@ts.com",
+        "contact": "08639600378",
+        "depaturePNR": "PNRDFLY901011854",
+        "returnPNR": "",
+        "CoPassangers": []
+      }
+    },
+    {
+      "id": "1791",
+      "passangerInfo": {
+        "passangerid": "1755",
+        "name": "test2",
+        "email": "test2@ts.com",
+        "contact": "08639600378",
+        "depaturePNR": "PNRDFLY901011148",
+        "returnPNR": "PNRRFLY901011148",
+        "CoPassangers": []
+      }
+    },
+    {
+      "id": "1260",
+      "passangerInfo": {
+        "passangerid": "1467",
+        "name": "teja",
+        "email": "teja@gmail.com",
+        "contact": "08639600378",
+        "depaturePNR": "PNRDFLY901011377",
+        "returnPNR": "",
+        "CoPassangers": []
+      }
+    },
+    {
+      "passangerInfo": {
+        "passangerId": "189",
+        "name": "Tejaswaroop Kuppa",
+        "email": "tejaswaroop.kuppa09@gmail.com",
+        "contact": "08639600378",
+        "departurePNR": "PNRDFLY90undefined1194",
+        "returnPNR": "",
+        "CoPassangers": [
+          {
+            "passangerId": "2963",
+            "name": "Teja",
+            "email": "tejaswaroop.kuppa09@gmail.com",
+            "contact": "08639600378",
+            "depaturePNR": "PNRDFLY90undefined1194undefined2194",
+            "returnPNR": ""
+          }
+        ]
+      },
+      "id": "71qADCv"
+    },
+    {
+      "passangerInfo": {
+        "passangerId": "3612",
+        "name": "Tejaswaroop Kuppa",
+        "email": "tejaswaroop.kuppa09@gmail.com",
+        "contact": "08639600378",
+        "departurePNR": "PNRDFLY90undefined1194undefined2194undefined3778",
+        "returnPNR": "",
+        "CoPassangers": [
+          {
+            "passangerId": "2963",
+            "name": "Teja",
+            "email": "tejaswaroop.kuppa09@gmail.com",
+            "contact": "08639600378",
+            "depaturePNR": "PNRDFLY90undefined1194undefined2194",
+            "returnPNR": ""
+          },
+          {
+            "passangerId": "4250",
+            "name": "Teja",
+            "email": "tejaswaroop.kuppa09@gmail.com",
+            "contact": "08639600378",
+            "depaturePNR": "PNRDFLY90undefined1194undefined2194undefined3778undefined4778",
+            "returnPNR": ""
+          }
+        ]
+      },
+      "id": "YJHYAm6"
+    }
+  ],
+  "fetchData": [
+    {
+      "passangerid": "1418",
+      "name": "tejaswaroop",
+      "email": "teja@gmail.com",
+      "contact": "08639600388",
+      "depaturePNR": "PNRDFLY901011148",
+      "sourcePlace": "Hyderabad",
+      "destinationPlace": "Kolkata",
+      "departureDate": "4-08-2021",
+      "airlineName": "Indigo",
+      "flightCode": "IND1000",
+      "price": "100$",
+      "isCanceled": false,
+      "returnDate": ""
+    }
+  ],
+  "fetchHistroyData": [
+    {
+      "passangerid": "1418",
+      "name": "tejaswaroop",
+      "email": "teja@gmail.com",
+      "contact": "08639600388",
+      "depaturePNR": "PNRDFLY901011148",
+      "sourcePlace": "Hyderabad",
+      "destinationPlace": "Kolkata",
+      "departureDate": "4-08-2021",
+      "airlineName": "Indigo",
+      "flightCode": "IND1000",
+      "price": "100$",
+      "isCanceled": false,
+      "returnDate": ""
+    },
+    {
+      "passangerid": "1518",
+      "name": "tejaswaroop",
+      "email": "teja@gmail.com",
+      "contact": "08639600388",
+      "depaturePNR": "PNRDFLY901011158",
+      "sourcePlace": "Hyderabad",
+      "destinationPlace": "Mumbai",
+      "departureDate": "25-07-2021",
+      "airlineName": "Indigo",
+      "flightCode": "IND1009",
+      "price": "100$",
+      "isCanceled": false,
+      "returnDate": "29-07-2021"
+    }
+  ]
+}
